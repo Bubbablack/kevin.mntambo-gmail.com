@@ -1,2 +1,2 @@
-# kevin.mntambo-gmail.com
+# Simple_calculator
 Umuzi-simple_calculator
