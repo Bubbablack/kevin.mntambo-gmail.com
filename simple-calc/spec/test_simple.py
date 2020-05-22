@@ -1,3 +1,6 @@
+import pytest
+import sys
+sys.path.append('../src')
 import simple
 
 def test_calc_total():
@@ -5,5 +8,5 @@ def test_calc_total():
     assert total == 12
 
 def test_calc_multiply():
-    result = simple.calc_multiply(10,3)
-    assert result == 30
+    result = simple.calc_multiply(3,3)
+    assert result == 9
